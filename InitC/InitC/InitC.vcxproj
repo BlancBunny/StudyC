@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9-3.c" />
+    <ClCompile Include="Calculator_v4.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
