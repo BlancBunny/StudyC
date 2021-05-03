@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator_v4.c" />
+    <ClCompile Include="LottaryProgram.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="LottaryProgram.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

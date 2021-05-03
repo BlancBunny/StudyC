@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex9-7-1.c" />
+    <ClCompile Include="ex11-7.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{87027b11-f7f7-4dbd-94cf-05746a52aa6d}</ProjectGuid>
-    <RootNamespace>Chart9</RootNamespace>
+    <ProjectGuid>{c0ae253e-e0ca-4887-916c-e61d300d1a88}</ProjectGuid>
+    <RootNamespace>Chart11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
