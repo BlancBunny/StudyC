@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main();
 
-
-
 void func_exit() {
 	printf("프로그램 종료!");
 	exit(0);
@@ -24,16 +22,21 @@ int exit_check(char ch) {
 		 // continue
 }
 
-int add(int a, int b) {
-	return a + b;
+void Calculator(int (*fp)(int, int), int a, int b) {
+	return fp(a, b);
 }
 
-int sub(int a, int b) {
-	return a - b;
+void add(int a, int b) {
+	printf("연산 결과 : %d + %d = %d\n", a, b, a + b);
+
 }
 
-int mul(int a, int b) {
-	return a * b;
+void sub(int a, int b) {
+	printf("연산 결과 : %d - %d = %d\n", a, b, a - b);
+}
+
+void mul(int a, int b) {
+	printf("연산 결과 : %d x %d = %d\n", a, b, a * b);
 }
 
 double divide(int a, int b) {
