@@ -9,7 +9,7 @@ int main() {
 	int list[3] = { 10, 20, 30 };
 	struct list a = { 10, 0 }, b = { 20, 0 }, c = { 30, 0 };
 	struct list* head = &a, * current;
-
+	
 	a.next = &b;
 	b.next = &c;
 

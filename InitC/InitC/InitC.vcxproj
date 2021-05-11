@@ -19,10 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex_employee.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ex_employee.h" />
+    <ClCompile Include="ex_login.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
