@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOME IOT NETWORK</title>
+    <script language="JavaScript">
+        var distance = 300;
+    </script>
+    </head>
+    <body>
+        <h1>LED ON OFF</h1>
+        <form action='/data/led' method='post'>
+            <button type="submit" name="led" value="on"
+                style="color: #fff; background:red; font-size:2em; border-radius:0.5em; padding:5px 20px;">ON</button>
+            <button type="submit" name="led" value="off"
+                style="color: #fff; background:blue; font-size:2em; border-radius:0.5em; padding:5px 20px;">OFF</button>
+        </form>
+        <h1>PWM LED</h1>
+        <form action='/data/pwm' method='post'>
+            <button type="submit" name="pwm" value="+"
+                style="color:black; background:white; font-size:2em; border-radius:0.5em; padding:5px 20px;">brighter</button>
+            <button type="submit" name="pwm" value="-"
+                style="color:white; background:black; font-size:2em; border-radius:0.5em; padding:5px 20px;">darker</button>
+        </form>
+        
+        <h1>Piezo Buzzer</h1>
+        <form action='/data/buzz' method='post'>
+            <button type="submit" name="buzz" value="on"
+                style="color:white; background:green; font-size:2em; border-radius:0.5em; padding:5px 20px;">buzzer</button>
+        </form>
+        
+        <h1>UltraSonic Sensor</h1>
+        <form action='/data/ultra' method='post'>
+            <h4>{{distance}} cm</h4>             
+            <button type="submit" name='ultra' value='on'
+                    style="color:white; background:gray; font-size:2em; border-radius:0.5em; padding:5px 20px;">Measure</button>
+        </form>
+
+        <h1>Clean GPIO Setup</h1>
+        <form action='/data/clean' method='post'>
+            <button type="submit" name="led" value="clean"
+                style="color: #fff; background:brown; font-size:2em; border-radius:0.5em; padding:5px 20px;">Clean</button>
+            <button type="submit" name="led" value="set"
+                style="color: #fff; background:pink; font-size:2em; border-radius:0.5em; padding:5px 20px;">Set</button>
+        </form>
+    </body>
+</html>
