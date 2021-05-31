@@ -1,0 +1,7 @@
+깃허브 사용법 (sudo)
+패키징 : git add -A
+새 파일 확인 : git status
+커밋 : git commit -m "메시지" 
+푸쉬 : git push 
+풀 : git pull
+
