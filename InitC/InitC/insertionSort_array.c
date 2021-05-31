@@ -10,8 +10,11 @@ int main() {
 	printf("문자열 입력 : ");
 	gets_s(input_ary, 10);
 	printf("===================\n");
-	insertionSort(input_ary); // 문자열 사전순으로 정렬
-	div_ul(input_ary); // 정렬된 문자열 분리
+	div_ul(input_ary); // 문자열 대소문자 분류
+
+	insertionSort(upper_ary); // 사전순으로 정렬
+	insertionSort(lower_ary);
+	
 
 	printf("대문자 : %s\n", upper_ary);
 	printf("소문자 : %s\n", lower_ary);
