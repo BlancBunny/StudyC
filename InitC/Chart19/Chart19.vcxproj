@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{090ca607-38bc-478f-b404-f556fa405497}</ProjectGuid>
-    <RootNamespace>InitC</RootNamespace>
+    <ProjectGuid>{c05c4064-e8d5-4291-8ad8-38fc0f47b608}</ProjectGuid>
+    <RootNamespace>Chart19</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,6 +138,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ex19.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ex19-8-add.c" />
+    <ClCompile Include="ex19-8-input.c" />
+    <ClCompile Include="ex19-8-main.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

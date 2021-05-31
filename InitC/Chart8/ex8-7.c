@@ -10,4 +10,3 @@ int main() {
 	printf("%s\n", str);
 }
 
-& / *
