@@ -1,9 +1,9 @@
 # StudyC
 C99 Repository
 
-## [C언어 학습](https://github.com/BlancBunny/StudyC/tree/main/InitC)
+## [C언어 공부 code](https://github.com/BlancBunny/StudyC/tree/main/InitC)
 
-## [자료구조 학습](https://github.com/BlancBunny/StudyC/tree/main/data_Structure)
+## [자료구조 학습 code](https://github.com/BlancBunny/StudyC/tree/main/data_Structure)
 
 -----------------------
 
