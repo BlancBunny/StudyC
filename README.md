@@ -11,7 +11,9 @@ C99 Repository
 
 ![image](https://user-images.githubusercontent.com/77951828/125027862-f47bdc00-e0c1-11eb-9632-02b6c664c187.png)
 
-'''
+<pre>
+<code>
+
 /*
 	- 삽입 시 정렬 함수 - 
 	parameter : 리스트 헤드 포인터 h, 삽입할 노드 newNode
@@ -49,4 +51,5 @@ void insertionSort(HeadNode* h) {
 	h->head = sorted->head;
 }
 
-'''
+</code>
+</pre>
