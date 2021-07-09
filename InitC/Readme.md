@@ -1,5 +1,5 @@
 # C언어 학습 리포지토리
-[Chapter2]()   
+[Chapter2](https://github.com/BlancBunny/StudyC/tree/main/InitC/Chart2)   
 [Chapter3]()   
 [Chapter4]()   
 [Chapter5]()   
