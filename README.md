@@ -7,6 +7,6 @@ C99 Repository
 
 -----------------------
 
-[Linked-List + Selection Sort 구현](https://github.com/BlancBunny/StudyC/blob/main/InitC/InitC/insertionSort_linkedList.c)
+[Linked-List + Selection Sort 구현 ](https://github.com/BlancBunny/StudyC/blob/main/InitC/InitC/insertionSort_linkedList.c)
 
 ![image](https://user-images.githubusercontent.com/77951828/125027862-f47bdc00-e0c1-11eb-9632-02b6c664c187.png)
